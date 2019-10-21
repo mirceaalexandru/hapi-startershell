@@ -1,0 +1,2 @@
+* Hapi starter shell project
+
