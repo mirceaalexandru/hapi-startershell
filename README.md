@@ -7,7 +7,7 @@
       * [Endpoint validation](#endpoint-validation)
       * [Logging](#logging)
       * [Docker](#docker)
-      * [ESLint](#eslint)
+      * [Linting](#linting)
       * [Testing](#testing)
       * [Pre-commit](#pre-commit)
       * [Code Readability](#code-readability)
@@ -48,7 +48,7 @@ template all things required to start a service in a nice and clean way.
  
 ### Docker
 
-### ESLint
+### Linting
 
 ### Testing
 
