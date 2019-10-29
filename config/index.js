@@ -1,5 +1,4 @@
 const environment = require('./environment')
-const joi = require('joi');
 const schema = require('./schema')
 
 const internals = {}
@@ -17,7 +16,8 @@ async function get () {
     // ignore this error for production
   }
 
-  internals.config = await joi.validate(environment(), schema);
+  const result = await schema.validate(environment());
+  internals.config = result.value;
   console.log({ config: internals.config }, 'Load using configuration'); // eslint-disable-line
   return internals.config;
 }
