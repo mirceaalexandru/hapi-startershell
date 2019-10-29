@@ -17,7 +17,7 @@ template all things required to start a service in a nice and clean way.
  
 ***Swagger documentation***
 
- * Swagger documentation for implemented endpoints is exposed automatically on `/documentation``` endpoint.
+ * Swagger documentation for implemented API is exposed automatically on `/documentation` endpoint.
  * This documentation is created automatically using the HapiJs endpoint validation.
  * This documentation is exposed autoatically only for `development` environments, 
  in `staging` or `production` there will no exposed API documentation. 
