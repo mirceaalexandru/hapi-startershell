@@ -17,7 +17,7 @@ async function get () {
     // ignore this error for production
   }
 
-  internals.config = joi.validate(environment(), schema);
+  internals.config = await joi.validate(environment(), schema);
   console.log({ config: internals.config }, 'Load using configuration'); // eslint-disable-line
   return internals.config;
 }
