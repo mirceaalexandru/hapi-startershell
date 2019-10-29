@@ -1,4 +1,4 @@
-#Hapi starter shell project (WIP)
+# Hapi starter shell project (WIP)
 
   * [Reason](#reason)
   * [Features](#features)
